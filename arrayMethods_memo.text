@@ -1,0 +1,8 @@
+const newArray = array.map(val => 'tag:'+array[val].tag, 'className:'+array[val]+'c-'+ array.className);
+console.log(newArray);
+
+
+
+
+限りなく近いなにか
+const newArray = array.map(val => console.log('{ tag:'+ (val).tag, 'className:c-' + (val).className+'}'));
