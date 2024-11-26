@@ -14,15 +14,14 @@ button.addEventListener('click', () => {
   setTimeout(() => {
     title.classList.remove('animate__hinge');
 
-  setTimeout(() => {
-    article.style.display="block";
+    article.style.display = "block";
     //.card-type--yellowのとこにあるstyleのdisplayをblockに変更しますという処理。
     article.classList.add('card-animation');
     //↑card-animationを付与。これは動きを与えるためのもの
     article.classList.add('animate__fadeInUp');
     //ドキュメント内のbodyにクラスanimate__fadeInUpを付与。これは「下からフェードインしますよ。」という処理。
-  }, 0);
-}, 2000);
+
+  }, 2000);
 
 });
 
