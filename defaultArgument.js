@@ -11,7 +11,7 @@ console.log(nameFn('taro')); // Gizumo taro
 // 問題 1
 
 //関数の引数にデフォルト因数を与える。
-function discountRateCalc(price, rate = '5') {
+function discountRateCalc(price, rate = 5) {
   return price * (1 - rate * 0.01);
 }
 
