@@ -11,3 +11,11 @@ const testFn = name => `Gizumo ${name}`;
 
 console.log(testFn('taro'));
 
+
+//パターン2
+
+const tesFn = name => {
+  return `Gizumo ${name}`;
+};
+
+console.log(tesFn('taro'));
