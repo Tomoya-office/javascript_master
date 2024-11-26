@@ -9,8 +9,6 @@ console.log(fuga); // two
 console.log(piyo); // three
 */
 
-
-
 // 練習問題
 // 問題 1
 //配列編にある分割代入を参考
@@ -20,13 +18,11 @@ function arrayFn(arg) {
   return ['jQuery', 'Vue', arg];
 }
 
-//arrayFn()の中の値をeasy,lookという値に振り分けする。
-const [easy, look] = arrayFn();
+//分割代入でそれぞれ振り分けする。
+const [text, log, easy] = arrayFn('easy');
 
-//呼び出す。
-console.log(easy); //'jQuery'
-console.log(look); //Vue
-
+//argの入ってる変数の呼び出し。
+console.log(easy); //'arg'
 
 
 // 問題 2
