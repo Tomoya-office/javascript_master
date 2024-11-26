@@ -40,7 +40,9 @@ const array = [
 //回答１
 //const newArray = array.map(val=> console.log('{ tag:'+(val).tag , 'className:c-' +(val).className +'}'));
 
-const newArray = array.map( val => {return{...val , className:`c-${val.className}`}});
+const newArray = array.map( val => {
+  return{...val , className:`c-${val.className}`}
+});
 
 console.log(newArray);
 
